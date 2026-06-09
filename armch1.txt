@@ -101,7 +101,7 @@ in the same suit.  Batsmen numbered 9, 10 and 11 cannot use a 1 or a 2 to
 defend against a higher card in the same suit.  (This results in
 lower-order batsmen having less batting ability.)
 
-In a first-class match (armchair.exe), each side plays two innings.  An
+In a first-class match (ARMCH1FC.EXE), each side plays two innings.  An
 innings is completed when ten wickets have fallen or when the batting side
 declare the innings closed.  To win, a player must score more runs than in
 his opponent's two completed innings.  A tie results if the match is
@@ -111,7 +111,7 @@ each of 8 sides playing each other once.  A win earns 16 points, a tie 8
 points, a draw 3, and a loss none.  The winner of the championship is the
 side with the most points at the end of a season.
 
-In a limited-overs match (armchail.exe), each side plays one innings of a
+In a limited-overs match (ARMCH1LO.EXE), each side plays one innings of a
 maximum of 30 overs (by default).  The winner is the side which scores
 more runs.  A knockout tournament consists of 14 matches and a final.  A
 side is eliminated when two matches are lost.  A league season consists of
@@ -136,10 +136,10 @@ Yorkshire            balanced       fast
 Nottinghamshire are perhaps the toughest first-class side to beat, whereas
 Sussex are probably the best limited-overs side.
 
-To get started playing a very short match, run armchail.exe and press 4 at
+To get started playing a very short match, run ARMCH1LO.EXE and press 4 at
 the main menu.  Press a number from 1 to 8 to pick a side to captain.
 Press Enter to return to the main menu, then press 7 to go to the options
-screen.  Press 1, 2, and 3 to switch off the no-ball, wide, and bye rules
+screen.  Press 1, 2 and 3 to switch off the no-ball, wide and bye rules
 (these can be introduced one by one when the basic game is mastered).
 Press 4 to change the number of players per side, then enter a number like
 4 or 5 (a lower number will produce a shorter match).  Notice that the
@@ -151,11 +151,11 @@ to the main menu, then press 8 to switch to the league competition.  Press
 2 to begin the first round.  Three other matches will also be played.
 After the round is completed, the new points table will be shown.  Press
 Enter to return to the main menu, then press 6 and 1 to save the season to
-a file.  Enter a filename (like cric01).  The saved season can then be
+a file.  Enter a filename (like CRIC01).  The saved season can then be
 restored and continued later from the save/restore menu.
 
 Prior knowledge of the game of cricket is not necessary to enjoy Armchair
 Cricket, but it does add to the fun.  To find out more about the real game
 of cricket, see <http://www.ozsports.com.au/cricket/cricket_exp.html>.
 
-Please e-mail any questions about these programs to <honky98@aggies.org>.
+Please e-mail any questions about these programs to <honky98@aggienetwork.com>.

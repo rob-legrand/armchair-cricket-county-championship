@@ -1,0 +1,161 @@
+How to Play Armchair Cricket
+============================
+
+Armchair Cricket is a card game for two players carefully designed to
+capture the major aspects of a real cricket match.  Players alternate as
+batsmen and bowlers, trying to score more runs than the other side.
+
+A player can captain a certain side by changing to the seasonal statistics
+screen (4 on the main menu) and pressing the number of the desired side.
+The other sides are captained by the computer, with varying abilities and
+tendencies.  Some sides tend to be better at first-class matches, some
+better at the limited-overs game.  (See below for each side's general
+tendencies.)
+
+The game is played with two identical packs of 55 cards, each made up of
+five suits of 11 cards numbered from 1 to 11.  The suits are pads, bats,
+balls, stumps, and gloves.
+
+Both packs of cards are shuffled together and seven cards are dealt to
+each player.  The remaining cards constitute the pickup pile.  This is the
+only time the cards are dealt in the entire match.
+
+A coin is tossed for choice of innings.  The winner, after studying his
+cards, either elects to bat or to bowl.  Both players then throw away an
+unwanted card, bowler first, to start a discard pile.  The bowler's
+discard will determine the no-ball suit in the first over.  (An over
+consists of six balls bowled consecutively.)
+
+Play commences when the bowler bowls the first ball by playing one of his
+six cards onto the discard pile.  The bowler can allow the computer to
+select a play by pressing the equals key (=).  The card he plays is
+replaced by the top card from the pickup pile.  To avoid being out the
+batsman has three basic choices open to him:
+
+(1) He may play a card of a different suit to the bowler's which is equal
+    or higher in number.  (This signifies that he has allowed the ball to
+    pass to the wicketkeeper, unless a 10 or 11 is used in which case the
+    ball has beaten the bat but failed to take a wicket.)
+(2) He may play a card of the same suit which is equal or lower in number.
+    (This signifies a defensive stroke or one which has not penetrated the
+    field.)
+(3) He may play a card of the same suit which is higher in number.  This
+    will score runs according to the following table:
+
+batsman's card superior by:  1   2   3   4   5   6   7   8   9  10
+     number of runs scored:  1   1   1   2   2   3   4   4   4   6
+
+The batsman can also allow the computer to select a play by pressing the
+equals key (=).  The card the batsman plays on top of the bowler's card is
+replaced by the top card from the pickup pile.  Once a card has been
+played by either player it may not be changed.  Play continues in this
+fashion, ball by ball, over by over, until there are no cards left to pick
+up.
+
+One suit becomes no-balls for each over of the game.  The last ball of
+every over determines the no-ball suit for the following over.  If the
+bowler bowls a card of he prohibited suit, the umpire calls "no-ball", and
+the batsman may do one of three things:
+
+(1) Not play any card and score 1 no-ball (counting as a run).
+(2) Hit the no-ball for runs by playing a higher card in any suit.
+(3) Discard any card, even if it would normally result in a lost wicket,
+    and score 1 no-ball.
+
+A no-ball does not count as one of the over, so an extra ball must be
+bowled to complete the over.  The last ball bowled in one innings
+determines the no-ball suit for the first over of the next innings.
+
+A wide occurs when the bowler bowls a card which is the same number as the
+card on top of the discard pile, regardless of suit.  The umpire calls
+"wide", and the batsman has the option of not playing any card.  This will
+allow him to score 1 wide, unless the cards involved are 11s, in which
+case 4 wides are scored.  The batsman may also play a card as normal, in
+which case the "wide" call is revoked.  A wide does not count as one of
+the over.
+
+A bye occurs when the bowler bowls a card which is one higher in number
+than the card on top of the discard pile, regardless of suit.  The umpire
+calls "bye", and the batsman scores byes, without playing a card,
+according to the following table:
+
+number of bowler's card:  2   3   4   5   6   7   8   9  10  11
+  number of byes scored:  1   1   2   2   3   4   4   4   4   4
+
+If a bowler plays an 11 of the same suit of the card which has apparently
+given away 4 wides or 4 byes, only 1 wide or no byes will be scored.
+(This signifies that the wicket-keeper made a superb stop.)
+
+When the pickup pile is exhausted, all except the top card of the discard
+pile is shuffled and cut to form a new pickup pile.  Play then continues
+as before.
+
+A wicket falls whenever the batsman plays a card of a different suit to
+the bowler's which is lower in number.  The suits of the bowler's and
+batsman's cards determine how the batsman is dismissed.  A new batsman
+takes the place of the dismissed batsman, and the batting side is allowed
+to change up to two cards before the next ball is bowled.
+
+Batsmen numbered 6, 7 and 8 cannot use a 1 to defend against a higher card
+in the same suit.  Batsmen numbered 9, 10 and 11 cannot use a 1 or a 2 to
+defend against a higher card in the same suit.  (This results in
+lower-order batsmen having less batting ability.)
+
+In a first-class match (armchair.exe), each side plays two innings.  An
+innings is completed when ten wickets have fallen or when the batting side
+declare the innings closed.  To win, a player must score more runs than in
+his opponent's two completed innings.  A tie results if the match is
+finished with scores level.  If the match is not finished before 24 packs
+(by default) have been used, the result is a draw.  A season consists of
+each of 8 sides playing each other once.  A win earns 16 points, a tie 8
+points, a draw 3, and a loss none.  The winner of the championship is the
+side with the most points at the end of a season.
+
+In a limited-overs match (armchail.exe), each side plays one innings of a
+maximum of 30 overs (by default).  The winner is the side which scores
+more runs.  A knockout tournament consists of 14 matches and a final.  A
+side is eliminated when two matches are lost.  A league season consists of
+each of 8 sides playing each other once.  A win earns 4 points, a tie 2
+points, and a loss none.  The winner of the league is the side with the
+most points at the end of a season.  A player can switch between the
+knockout and league competitions at any time (8 on the main menu).
+
+The 8 sides in Armchair Cricket are based on the 8 English first-class
+county sides that competed from 1890-1892.  Their general tendencies are
+as follows:
+                     batting        bowling
+Gloucestershire      defensive      fast
+Kent                 defensive      medium
+Lancashire           attacking      slow
+Middlesex            attacking      medium
+Nottinghamshire      defensive      slow
+Surrey               balanced       slow
+Sussex               attacking      fast
+Yorkshire            balanced       fast
+
+Nottinghamshire are perhaps the toughest first-class side to beat, whereas
+Sussex are probably the best limited-overs side.
+
+To get started playing a very short match, run armchail.exe and press 4 at
+the main menu.  Press a number from 1 to 8 to pick a side to captain.
+Press Enter to return to the main menu, then press 7 to go to the options
+screen.  Press 1, 2, and 3 to switch off the no-ball, wide, and bye rules
+(these can be introduced one by one when the basic game is mastered).
+Press 4 to change the number of players per side, then enter a number like
+4 or 5 (a lower number will produce a shorter match).  Notice that the
+number of overs per innings will change automatically.  Press 6 and 7
+repeatedly to change the skill level of the computer's batting and bowling
+("league" is a good first choice for both, but these can always be
+adjusted if winning is too easy or too difficult).  Press Enter to return
+to the main menu, then press 8 to switch to the league competition.  Press
+2 to begin the first round.  Three other matches will also be played.
+After the round is completed, the new points table will be shown.  Press
+Enter to return to the main menu, then press 6 and 1 to save the season to
+a file.  Enter a filename (like cric01).  The saved season can then be
+restored and continued later from the save/restore menu.
+
+Prior knowledge of the game of cricket is not necessary to enjoy Armchair
+Cricket, but it does add to the fun.  To find out more about the real game
+of cricket, see <http://www.ozsports.com.au/cricket/cricket_exp.html>.
+
+Please e-mail any questions about these programs to <honky98@aggies.org>.

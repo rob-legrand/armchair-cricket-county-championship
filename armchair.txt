@@ -17,7 +17,6 @@ Armchair Cricket is a card game for two players carefully designed to capture
 the major aspects of a real cricket match.  Players alternate as batsmen and
 bowlers, trying to score more runs than the other side.  The computer takes the
 role of umpire.
-
 The game is played with two identical packs of 55 cards, each made up of five
 suits of 11 cards numbered from 1 to 11.  The suits are pads, bats, balls,
 stumps, and gloves.
@@ -313,4 +312,4 @@ Choosing [8] from above presents another menu:
 [6] View second-class averages
   Shows all-time second-class batting and bowling statistics.
 
-Please e-mail any questions about this program to <honky98@aggies.org>.
+Please e-mail any questions about this program to <honky98@aggienetwork.com>.

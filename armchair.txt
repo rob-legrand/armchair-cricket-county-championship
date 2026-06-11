@@ -1,0 +1,316 @@
+Armchair Cricket County Championship
+====================================
+
+This file (ARMCHAIR.TXT) is a guide to playing Armchair Cricket County
+Championship, a DOS program.  It's divided into four sections:
+
+(1) How to play the Armchair Cricket card game,
+(2) Playing a match in ACCC,
+(3) The ACCC competition structure,
+(4) Using the rest of the ACCC program.
+
+
+How to play the Armchair Cricket card game
+------------------------------------------
+
+Armchair Cricket is a card game for two players carefully designed to capture
+the major aspects of a real cricket match.  Players alternate as batsmen and
+bowlers, trying to score more runs than the other side.  The computer takes the
+role of umpire.
+
+The game is played with two identical packs of 55 cards, each made up of five
+suits of 11 cards numbered from 1 to 11.  The suits are pads, bats, balls,
+stumps, and gloves.
+
+Both packs of cards are shuffled together and seven cards are dealt to each
+player.  The remaining cards constitute the pickup pile.  This is the only
+time the cards are dealt in the entire match.
+
+A coin is tossed for choice of innings.  The winner, after studying his cards,
+either elects to bat or to bowl.  Both players then throw away an unwanted
+card, bowler first, to start a discard pile.  The bowler's discard will
+determine the no-ball suit in the first over.  (An over consists of six balls
+bowled consecutively.)
+
+Play commences when the bowler bowls the first ball by playing one of his six
+cards onto the discard pile.  The card he plays is replaced in his hand by the
+top card from the pickup pile.  To avoid being out the batsman has three basic
+choices open to him:
+
+(1) He may play a card of a different suit to the bowler's which is equal or
+    higher in number.  (This signifies that he has allowed the ball to pass to
+    the wicket-keeper, unless a 10 or 11 is used in which case the ball has
+    beaten the bat but failed to take a wicket.)
+(2) He may play a card of the same suit which is equal or lower in number.
+    (This signifies a defensive stroke or one which has not penetrated the
+    field.)
+(3) He may play a card of the same suit which is higher in number.  This will
+    score runs according to the following table:
+
+Batsman's card superior by:   1   2   3   4   5   6   7   8   9  10
+     Number of runs scored:   1   1   1   2   2   3   4   4   4   6
+
+For example, if the batsman plays an 8 of bats in response to the bowler's 5 of
+bats, he will score 1 run.
+
+The card the batsman plays on top of the bowler's card is replaced in his hand
+by the top card from the pickup pile.  Once a card has been played by either
+player it may not be changed.  Play continues in this fashion, ball by ball,
+over by over, until there are no cards left to pick up.
+
+When the pickup pile is exhausted, all except the top card of the discard pile
+is shuffled to form a new pickup pile.  Play then continues as before.
+
+A wicket falls whenever the batsman plays a card of a different suit to the
+bowler's which is lower in number.  The suits of the bowler's and batsman's
+cards determine how the batsman is dismissed.  A new batsman takes the place of
+the dismissed batsman, and the batting side is allowed to change up to two
+cards before the next ball is bowled.
+
+Batsmen numbered 6, 7 and 8 cannot use a 1 to defend against a higher card in
+the same suit.  Batsmen numbered 9, 10 and 11 cannot use a 1 or a 2 to defend
+against a higher card in the same suit.  (This results in lower-order batsmen
+having less batting ability.)
+
+There are optional rules for scoring extras (no-balls, wides and byes), which
+count as runs.  These rules should be introduced one by one as soon as the
+rules of the basic game are mastered.
+
+One suit becomes no-balls for each over of the game.  The last ball of every
+over determines the no-ball suit for the following over.  If the bowler bowls
+a card of the prohibited suit, the umpire calls "no-ball", the batting side
+score one no-ball, and the batsman may do one of three things:
+
+(1) Not play any card.
+(2) Hit the no-ball for runs by playing a higher card in any suit.
+(3) Discard any card, even if it would normally result in a lost wicket.
+
+A no-ball does not count as one of the over, so an extra ball must be bowled
+to complete the over.  The last ball bowled in one innings determines the
+no-ball suit for the first over of the next innings.
+
+A wide occurs when the bowler bowls a card which is the same number as the card
+on top of the discard pile, regardless of suit.  The umpire calls "wide", and
+the batsman has the option of not playing any card.  This will allow him to
+score 1 wide, unless the cards involved are 11s, in which case 4 wides are
+scored.  The batsman may also play a card as normal, in which case the "wide"
+call is revoked.  A wide does not count as one of the over.
+
+A bye occurs when the bowler bowls a card which is one higher in number than
+the card on top of the discard pile, regardless of suit.  The umpire calls
+"bye", and the batsman scores byes, without playing a card, according to the
+following table:
+
+Number of bowler's card:   2   3   4   5   6   7   8   9  10  11
+  Number of byes scored:   1   1   2   2   3   4   4   4   4   4
+
+If a bowler plays an 11 of the same suit of the card which has apparently given
+away 4 wides or 4 byes, only 1 wide or no byes will be scored.  (This signifies
+that the wicket-keeper made a superb stop.)
+
+Armchair Cricket is made by Armchair Games, High Street, Brandon, Suffolk,
+England.  The ACCC program uses rules 1-14 and 23-25 from the third revision of
+the rulebook.
+
+
+Playing a match in ACCC
+-----------------------
+
+In an ACCC match each side plays two innings.  An innings is completed when ten
+wickets have fallen or when the batting side declare the innings closed.  To
+win, a player must score more runs than in his opponent's two completed
+innings.  A tie results if the match is finished with scores level.  If the
+match is not finished before 27 packs have been used (and the last over of the
+pack has been completed), the result is a draw.
+
+When a match begins, the winner of an automatic coin toss is shown his cards
+and decides whether to bat or to bowl.  A letter or number inside square
+brackets indicates a key to press to indicate a choice; if you win the toss,
+press B to bat first or F (field) to bowl first.  Choose a card to discard by
+pressing the appropriate number.
+
+The match screen will appear, displaying the scoreboard, your hand and other
+relevant information:
+
+                                                       Surrey v Nottinghamshire
+ Surrey to bowl to Nottinghamshire . . .
+
+             +-----+     +---+            first day, morning session
+       TOTAL |   0 | FOR | 0 | WKTS       +--------------------------
+             +-----+     +---+            96 cards left in pack #1/27
+             +-----+         +------+
+    LAST WKT |     |   OVERS |  0.0 |         Notts 0-0
+             +-----+         +------+        Surrey
+
+   no-balls:      discard pile:
+    #stumps#       1 of $pads$
+                                     Notts lost the toss and were put in to bat
+Surrey's hand:
+   6 of      8 of     10 of      7 of     11 of     11 of
+  @gloves@  #stumps#  #stumps#  !bats!    $pads$    #stumps#
+    [1]       [2]       [3]       [4]       [5]       [6]
+
+Enter bowler's play: _
+
+The top left line gives the result of the last delivery.  The scoreboard area
+below displays runs scored and wickets lost by the batting side, the score at
+which the last wicket fell and the number of overs bowled in the current
+innings.  To its right is shown which day and session is being played, how much
+more of the match is left and the complete match score by innings.  Below that
+is a ball-by-ball history of the last three or so overs and a brief description
+of the state of the match.  Below the scoreboard area is listed the no-balls
+suit and the card on top of the discard pile.  Your hand is displayed at the
+bottom with a prompt for your next play.  Taking into account the displayed
+match information, especially the top card on the discard pile, select your
+next play by pressing the number below it, or press = to have the computer
+choose for you.  The computer will then respond from its own hand and the match
+information will be updated accordingly.  You will be prompted when appropriate
+to change cards.
+
+Here's what the match begun above looks like on the morning of the final day:
+
+                                                       Surrey v Nottinghamshire
+ Notts batsman no. 5 is out caught.
+
+             +-----+     +---+            third day, morning session
+       TOTAL |  37 | FOR | 5 | WKTS       --------------------+------
+             +-----+     +---+            96 cards left in pack #21/27
+             +-----+         +------+
+    LAST WKT |  37 |   OVERS | 14.3 |         Notts 99 & 37-5
+             +-----+         +------+        Surrey 237
+
+   no-balls:      discard pile:     1 . . . | . . . . . 1 | 1 1 1 . . . | . . W
+    *balls*        1 of !bats!
+                                              Notts need 101 runs to bowl again
+Surrey's hand:
+  11 of      1 of      2 of      7 of      5 of      8 of
+  !bats!    #stumps#  $pads$    #stumps#  $pads$    $pads$
+    [1]       [2]       [3]       [4]       [5]       [6]
+
+Enter bowler's play: _
+
+Surrey look poised to record a rare innings victory over Nottinghamshire!
+
+
+The ACCC competition structure
+------------------------------
+
+A first-class season consists of each of eight sides playing each other twice.
+A win earns 4 points, a tie 2 points, a draw 1 and a loss none.  If a match is
+drawn with the batting side one run short of victory, the batting side earn a
+tie and the bowling side earn a draw.  If any counties are level on points, the
+higher quotient (the ratio of batting average to bowling average) has priority.
+The winner of the championship is the county with the most points at the end of
+a season, while the eighth-place side are relegated to second-class status for
+the next season.  The champions earn 360 in prize money, the runners-up 150,
+third place 80, fourth 45, fifth 24 and sixth 10.  The second-class competition
+has the same structure, with the top county being promoted to first-class
+status and no prize money awarded.  The competition begins in 1890 and lasts up
+to a hundred years.
+
+The 16 sides in ACCC are based on the top 16 English county sides that competed
+from 1890-1892, the first three years of the official County Championship.  The
+counties begin with the status they had in 1890, when Surrey won the first
+County Championship and Somerset, the top second-class county, were promoted
+for the 1891 season.  (Unfortunately, the bottom first-class county, Sussex,
+were not relegated to second-class status for 1891 and the promotion/relegation
+idea was abandoned, resulting in the expansion and dilution of the first-class
+competition and the death of the second-class designation.)
+
+
+Using the ACCC program
+----------------------
+
+First copy ARMCHAIR.EXE to a directory on your system (like C:\ARMCHAIR).
+Change to that directory and run ACCC by typing ARMCHAIR at the command line.
+When ACCC begins, it asks for a filename.  Enter a name no longer than eight
+characters, like SURREY11 or 1ST_TRY.  If the file doesn't already exist (as a
+correct ACCC file), the program will ask for confirmation before creating a new
+file with that name.
+
+Numbers or letters in square brackets (like [1]) are keys you can press to make
+a selection.  Numbers refer to menu choices or cards to play; letters refer to
+counties or game choices.
+
+Next is an options menu; use 1 through 9 to change the game options and 0 when
+finished.
+
+[1] No-ball rule        in effect
+[2] Wide rule           in effect
+[3] Bye rule            in effect
+[4] Batsmen per side    11
+[5] Packs per session   3
+[6] Days per match      3
+[7] Batting AI level    5 (professional)
+[8] Bowling AI level    5 (professional)
+[9] Revert to default settings
+
+These options are set only once and can't be changed without creating a new
+data file.  The first-timer should turn off the no-ball, wide and bye rules,
+change the number of batsmen per side to 4 or so, and adjust the AI levels to
+1 (novice) or 2 (village).  When a greater challenge is required, specify a new
+data file when starting the program and adjust the extras rules and AI levels
+to your comfort level.  Eventually the default settings will provide the
+richest challenge.
+
+The main screen features a menu:
+
+[1] Play next match quickly
+  Plays the next match in the season quickly and shows the scoreboard at the
+  end of the match.  (If this choice isn't available but [2] is, your county is
+  playing; press [2] to play the match.  If neither [1] nor [2] is available,
+  matches in the other competition must be completed first; pressing [1], like
+  [9], will switch to the other competition.)
+[2] Play next match fully
+  Plays the next match in the season in full, showing the scoreboard and all
+  details of play throughout and pausing when a wicket falls, an interval is
+  taken or an innings comes to a close.  (If this choice isn't available,
+  matches in the other competition must be completed first; pressing [2], like
+  [9], will switch to the other competition.)
+[3] View current points table
+  Shows the points table ranking the sides in order of points earned.  If any
+  counties are level on points, the higher quotient (batting average divided by
+  bowling average) has priority.  Also gives number of matches played and
+  win-loss-draw-tie records for each county.  An asterisk identifies your
+  county.
+[4] View averages
+  Shows batting and bowling statistics for each county.  Avge (batting or
+  bowling average) is runs per wicket, ScR (scoring rate) is runs per 100 balls
+  and StR (strike rate) is balls per wicket.
+[5] View match results
+  Shows a county's season schedule updated with the results of finished
+  matches and placing after each round.  The rightmost column shows the number
+  of points behind the first-place county; if in first place, the lead over the
+  second-place county is displaced further to the right.
+[6] View county records
+  Shows a county's record totals (highest and lowest, for and against) and
+  record partnerships for each wicket.
+[7] Review previous season
+  Reviews points table, averages and match results (choices [3], [4] and [5])
+  for past seasons.  Use [7] and [8] to cycle through the seasons.
+[8] Review all-time results
+  Presents all-time results summaries menu (explained below).
+[9] Switch to second-class (first-class)
+  Toggles between the first-class and second-class competitions' main menus.
+
+Choosing [8] from above presents another menu:
+
+[1] View rolls of honour
+  Shows the top three first-class finishers and the promoted county for each
+  year.
+[2] View final positions
+  Shows the year-by-year final positions of each county.  The second-class
+  placings are in parentheses.
+[3] View first-class results
+  Ranks all counties by total prize money won, giving all-time first-class
+  win-loss-draw-tie records, quotients, number of championships won and times
+  relegated.
+[4] View first-class averages
+  Shows all-time first-class batting and bowling statistics.
+[5] View second-class results
+  Shows all-time second-class records, ranked as for option [3], but giving
+  number of times promoted and wooden spoons taken.
+[6] View second-class averages
+  Shows all-time second-class batting and bowling statistics.
+
+Please e-mail any questions about this program to <honky98@aggies.org>.

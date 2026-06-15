@@ -1,10 +1,49 @@
-a {text-decoration: none}
-a:active {color: #ffc0c0}
-a:hover {bottom: 1px; position: relative; text-decoration: underline}
-a:link {color: #ffc0c0}
-a:visited {color: #ffc0c0}
-body {background-color: #008000; color: #ffffff}
-.bigtop {font-family: serif; font-size: 250%; text-align: center}
-.email, .url {font-family: monospace}
-.endtag {font-size: 60%; font-style: italic; margin-left: 2em}
-.smalltop {font-size: 150%; text-align: center}
+@charset "UTF-8";
+
+a {
+   text-decoration: none;
+}
+
+a:active {
+   color: #ffc0c0;
+}
+
+a:hover {
+   bottom: 1px;
+   position: relative;
+   text-decoration: underline;
+}
+
+a:link {
+   color: #ffc0c0;
+}
+
+a:visited {
+   color: #ffc0c0;
+}
+
+body {
+   background-color: #008000;
+   color: #ffffff;
+}
+
+.bigtop {
+   font-family: serif;
+   font-size: 250%;
+   text-align: center;
+}
+
+.email, .url {
+   font-family: monospace;
+}
+
+.endtag {
+   font-size: 60%;
+   font-style: italic;
+   margin-left: 2em;
+}
+
+.smalltop {
+   font-size: 150%;
+   text-align: center;
+}

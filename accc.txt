@@ -205,7 +205,7 @@ Exactly one fielding card must be played when a run out is not effected.
 Overthrows will result when the fielding card is too high, as for a two-card
 shot.
 
-Armchair Cricket is made by Armchair Games, High Street, Brandon, Suffolk,
+Armchair Cricket was made by Armchair Games, High Street, Brandon, Suffolk,
 England.  The ACCC program uses rules 1-14, 23-27, 29-30 and 32, with minor
 variations, from the third revision of the rulebook (1993).
 

@@ -411,7 +411,7 @@ Choosing [8] from above presents another menu:
 [6] View second-class averages
   Shows all-time second-class batting and bowling statistics.
 
-Please e-mail any questions about this program to <honky98@aggienetwork.com>.
+Please e-mail any questions about this program to <roblegrand98@gmail.com>.
 
 
 The latest copy of ACCC version 3 (updated 23 October) allows the player to

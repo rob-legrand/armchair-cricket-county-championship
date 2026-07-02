@@ -1,5 +1,54 @@
 @charset "UTF-8";
 
+a:link {
+   color: #800000;
+}
+
+a:visited {
+   color: #c0ffc0;
+}
+
+a:active {
+   color: #800000;
+}
+
+body {
+   background-color: #c0ffc0;
+   color: #000000;
+}
+
+table {
+   background-color: #800000;
+   border: #800000 outset 3px;
+   border-collapse: separate;
+   border-spacing: 3px;
+   color: #ffffff;
+   margin: auto;
+   text-align: center;
+}
+
+table a:active {
+   color: #c0ffc0;
+}
+
+table a:link {
+   color: #c0ffc0;
+}
+
+table a:visited {
+   color: #c0ffc0;
+}
+
+td {
+   border: #800000 inset 3px;
+   padding: 9px;
+}
+
+th {
+   border: #800000 inset 3px;
+   padding: 9px;
+}
+
 a {
    text-decoration: none;
 }

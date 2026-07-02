@@ -1,22 +1,5 @@
 @charset "UTF-8";
 
-a:link {
-   color: #800000;
-}
-
-a:visited {
-   color: #c0ffc0;
-}
-
-a:active {
-   color: #800000;
-}
-
-body {
-   background-color: #c0ffc0;
-   color: #000000;
-}
-
 table {
    background-color: #800000;
    border: #800000 outset 3px;

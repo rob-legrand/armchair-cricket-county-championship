@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
+a {
+   text-decoration: none;
+}
+
+a:link {
+   color: #ffc0c0;
+}
+
+a:visited {
+   color: #ffc0c0;
+}
+
+a:hover {
+   bottom: 1px;
+   position: relative;
+   text-decoration: underline;
+}
+
+a:active {
+   color: #ffc0c0;
+}
+
+body {
+   background-color: #008000;
+   color: #ffffff;
+}
+
 table {
    background-color: #800000;
    border: #800000 outset 3px;
@@ -30,33 +57,6 @@ td {
 th {
    border: #800000 inset 3px;
    padding: 9px;
-}
-
-a {
-   text-decoration: none;
-}
-
-a:link {
-   color: #ffc0c0;
-}
-
-a:visited {
-   color: #ffc0c0;
-}
-
-a:hover {
-   bottom: 1px;
-   position: relative;
-   text-decoration: underline;
-}
-
-a:active {
-   color: #ffc0c0;
-}
-
-body {
-   background-color: #008000;
-   color: #ffffff;
 }
 
 .bigtop {

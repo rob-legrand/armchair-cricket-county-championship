@@ -29,9 +29,11 @@ body {
 
 table {
    background-color: #800000;
-   border: #800000 outset 3px;
    border-collapse: separate;
+   border-color: #800000;
    border-spacing: 3px;
+   border-style: outset;
+   border-width: 3px;
    color: #ffffff;
    margin: auto;
    text-align: center;
@@ -50,12 +52,16 @@ table a:visited {
 }
 
 td {
-   border: #800000 inset 3px;
+   border-color: #800000;
+   border-style: inset;
+   border-width: 3px;
    padding: 9px;
 }
 
 th {
-   border: #800000 inset 3px;
+   border-color: #800000;
+   border-style: inset;
+   border-width: 3px;
    padding: 9px;
 }
 

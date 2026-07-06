@@ -28,10 +28,17 @@ body {
 }
 
 h1 {
+   background-color: rgb(128, 0, 0);
+   border-color: rgb(128, 0, 0);
+   border-style: ridge;
+   border-width: 6px;
+   display: table;
    font-family: serif;
    font-size: 250%;
    font-weight: normal;
+   margin: auto;
    margin-block: 0px;
+   padding: 9px;
    text-align: center;
 }
 

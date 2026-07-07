@@ -87,17 +87,6 @@ th {
    padding: 9px;
 }
 
-.bigtop {
-   font-family: serif;
-   font-size: 250%;
-   text-align: center;
-}
-
 .email, .url {
    font-family: monospace;
-}
-
-.smalltop {
-   font-size: 150%;
-   text-align: center;
 }

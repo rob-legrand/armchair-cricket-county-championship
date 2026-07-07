@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+   --cricket-ball-colour: rgb(128, 0, 0);
+   --green-link-colour: rgb(192, 255, 192);
+   --outfield-colour: rgb(0, 128, 0);
+   --red-link-colour: rgb(255, 192, 192);
+   --white-colour: rgb(255, 255, 255);
+}
+
 a {
    text-decoration: none;
 }

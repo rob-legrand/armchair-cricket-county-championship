@@ -13,11 +13,11 @@ a {
 }
 
 a:link {
-   color: rgb(255, 192, 192);
+   color: var(--red-link-colour);
 }
 
 a:visited {
-   color: rgb(255, 192, 192);
+   color: var(--red-link-colour);
 }
 
 a:hover {
@@ -27,17 +27,17 @@ a:hover {
 }
 
 a:active {
-   color: rgb(255, 192, 192);
+   color: var(--red-link-colour);
 }
 
 body {
-   background-color: rgb(0, 128, 0);
-   color: rgb(255, 255, 255);
+   background-color: var(--outfield-colour);
+   color: var(--white-colour);
 }
 
 h1 {
-   background-color: rgb(128, 0, 0);
-   border-color: rgb(128, 0, 0);
+   background-color: var(--cricket-ball-colour);
+   border-color: var(--cricket-ball-colour);
    border-style: ridge;
    border-width: 6px;
    display: table;
@@ -58,38 +58,38 @@ h2 {
 }
 
 table {
-   background-color: rgb(128, 0, 0);
+   background-color: var(--cricket-ball-colour);
    border-collapse: separate;
-   border-color: rgb(128, 0, 0);
+   border-color: var(--cricket-ball-colour);
    border-spacing: 3px;
    border-style: outset;
    border-width: 3px;
-   color: rgb(255, 255, 255);
+   color: var(--white-colour);
    margin: auto;
    text-align: center;
 }
 
 table a:active {
-   color: rgb(192, 255, 192);
+   color: var(--green-link-colour);
 }
 
 table a:link {
-   color: rgb(192, 255, 192);
+   color: var(--green-link-colour);
 }
 
 table a:visited {
-   color: rgb(192, 255, 192);
+   color: var(--green-link-colour);
 }
 
 td {
-   border-color: rgb(128, 0, 0);
+   border-color: var(--cricket-ball-colour);
    border-style: inset;
    border-width: 3px;
    padding: 9px;
 }
 
 th {
-   border-color: rgb(128, 0, 0);
+   border-color: var(--cricket-ball-colour);
    border-style: inset;
    border-width: 3px;
    padding: 9px;

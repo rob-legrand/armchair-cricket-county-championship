@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url(/fonts/fonts.css);
+
 :root {
    --cricket-ball-colour: rgb(128, 0, 0);
    --green-link-colour: rgb(192, 255, 192);

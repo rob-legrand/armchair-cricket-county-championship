@@ -45,7 +45,7 @@ h1 {
    border-style: ridge;
    border-width: 6px;
    display: table;
-   font-family: serif;
+   font-family: var(--serif);
    font-size: 250%;
    font-weight: normal;
    margin: auto;
@@ -100,5 +100,5 @@ th {
 }
 
 .email, .url {
-   font-family: monospace;
+   font-family: var(--monospace);
 }

@@ -37,6 +37,7 @@ a:active {
 body {
    background-color: var(--outfield-colour);
    color: var(--white-colour);
+   font-family: var(--serif);
 }
 
 h1 {
@@ -45,7 +46,6 @@ h1 {
    border-style: ridge;
    border-width: 6px;
    display: table;
-   font-family: var(--serif);
    font-size: 250%;
    font-weight: normal;
    margin: auto;

@@ -102,3 +102,6 @@ th {
 .email, .url {
    font-family: var(--monospace);
 }
+
+@media screen and (prefers-color-scheme: dark) {
+}

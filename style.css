@@ -105,10 +105,10 @@ th {
 
 @media screen and (prefers-color-scheme: dark) {
    :root {
-      --background-colour: rgb(0, 128, 0);
-      --link-colour: rgb(255, 192, 192);
-      --table-background-colour: rgb(128, 0, 0);
-      --table-link-colour: rgb(192, 255, 192);
+      --background-colour: rgb(0, 60, 0);
+      --link-colour: rgb(255, 195, 195);
+      --table-background-colour: rgb(105, 0, 0);
+      --table-link-colour: rgb(195, 255, 195);
       --text-colour: rgb(255, 255, 255);
    }
 }

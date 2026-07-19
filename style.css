@@ -10,6 +10,7 @@
    --table-background-colour: rgb(128, 0, 0);
    --table-link-colour: rgb(192, 255, 192);
    --text-colour: rgb(255, 255, 255);
+   color-scheme: dark light;
 }
 
 a {

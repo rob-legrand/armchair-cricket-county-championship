@@ -3,13 +3,13 @@
 @import url(/fonts/fonts.css);
 
 :root {
-   --background-colour: rgb(195, 255, 195);
-   --link-colour: rgb(120, 0, 0);
+   --background-colour: rgb(0, 60, 0);
+   --link-colour: rgb(255, 195, 195);
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
    --serif: Palatino, "Palatino Linotype", "Book Antiqua", Gentium, Didot, serif;
-   --table-background-colour: rgb(255, 120, 120);
-   --table-link-colour: rgb(0, 120, 0);
-   --text-colour: rgb(0, 0, 0);
+   --table-background-colour: rgb(105, 0, 0);
+   --table-link-colour: rgb(195, 255, 195);
+   --text-colour: rgb(255, 255, 255);
    color-scheme: dark light;
 }
 
@@ -104,12 +104,12 @@ th {
    font-family: var(--monospace);
 }
 
-@media screen and (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: light) {
    :root {
-      --background-colour: rgb(0, 60, 0);
-      --link-colour: rgb(255, 195, 195);
-      --table-background-colour: rgb(105, 0, 0);
-      --table-link-colour: rgb(195, 255, 195);
-      --text-colour: rgb(255, 255, 255);
+      --background-colour: rgb(195, 255, 195);
+      --link-colour: rgb(120, 0, 0);
+      --table-background-colour: rgb(255, 120, 120);
+      --table-link-colour: rgb(0, 120, 0);
+      --text-colour: rgb(0, 0, 0);
    }
 }

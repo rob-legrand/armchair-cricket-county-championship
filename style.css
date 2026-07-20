@@ -3,13 +3,13 @@
 @import url(/fonts/fonts.css);
 
 :root {
-   --background-colour: rgb(0, 128, 0);
-   --link-colour: rgb(255, 192, 192);
+   --background-colour: rgb(195, 255, 195);
+   --link-colour: rgb(120, 0, 0);
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
    --serif: Palatino, "Palatino Linotype", "Book Antiqua", Gentium, Didot, serif;
-   --table-background-colour: rgb(128, 0, 0);
-   --table-link-colour: rgb(192, 255, 192);
-   --text-colour: rgb(255, 255, 255);
+   --table-background-colour: rgb(255, 120, 120);
+   --table-link-colour: rgb(0, 120, 0);
+   --text-colour: rgb(0, 0, 0);
    color-scheme: dark light;
 }
 

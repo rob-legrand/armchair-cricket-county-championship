@@ -101,14 +101,7 @@ table a:visited {
    color: var(--table-link-colour);
 }
 
-td {
-   border-color: var(--table-background-colour);
-   border-style: inset;
-   border-width: 3px;
-   padding: 9px;
-}
-
-th {
+td, th {
    border-color: var(--table-background-colour);
    border-style: inset;
    border-width: 3px;

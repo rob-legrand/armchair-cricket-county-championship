@@ -32,11 +32,7 @@ a {
    text-decoration: none;
 }
 
-a:link {
-   color: var(--link-colour);
-}
-
-a:visited {
+a:link, a:visited, a:hover, a:active {
    color: var(--link-colour);
 }
 
@@ -44,10 +40,6 @@ a:hover {
    bottom: 1px;
    position: relative;
    text-decoration: underline;
-}
-
-a:active {
-   color: var(--link-colour);
 }
 
 body {

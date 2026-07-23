@@ -81,15 +81,7 @@ table {
    text-align: center;
 }
 
-table a:link {
-   color: var(--table-link-colour);
-}
-
-table a:visited {
-   color: var(--table-link-colour);
-}
-
-table a:active {
+table a:link, table a:visited, table a:active {
    color: var(--table-link-colour);
 }
 

@@ -78,7 +78,7 @@ table {
    text-align: center;
 }
 
-table a:link, table a:visited, table a:active {
+table a {
    color: var(--table-link-colour);
 }
 
